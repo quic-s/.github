@@ -4,8 +4,6 @@
 
 What is QUIC-S? QUIC-S is a protocol that allows you to synchronize files between multiple devices. It is a protocol that is designed to be used in a variety of situations, such as synchronizing files between your PC and your server. 
 
-
-
 ## Goal 
 
 The goal of this project is to provide a tool that can be used to synchronize files between two or more computers. The tool should be able to synchronize files in real time, and should be able to handle large files. And most of all, it should be resolved coflict between files by user-self.
@@ -27,3 +25,7 @@ The tool should be able to resolve conflicts between files. This means that if a
 #### 4. History management
 
 The tool should be able to manage the history of files. This means that the tool should be able to keep track of all the changes that have been made to a file, and should be able to revert to a previous version of the file if necessary.
+
+## Roadmap
+
+QUIC-S is a program currently under active development, and the development target schedule can be found at [ROADMAP.md](https://github.com/quic-s/quics/blob/main/ROADMAP.md).
