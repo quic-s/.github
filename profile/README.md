@@ -2,7 +2,13 @@
 
 ## Description
 
-What is QUIC-S? QUIC-S is a protocol that allows you to synchronize files between multiple devices. It is a protocol that is designed to be used in a variety of situations, such as synchronizing files between your PC and your server. 
+QUIC-S is a continuous file synchronization system based on QUIC protocol. This system is designed to synchronize files between multiple devices, to manage file versions, and to share files with other users.
+
+QUIC-S consists of a server and a client, and the quic-go based quics-protocol is used for communication between the two.
+
+To see server: [quics](https://github.com/quic-s/quics)<br>
+To see client: [quics-client](https://github.com/quic-s/quics-client)<br>
+To see protocol: [quics-protocol](https://github.com/quic-s/quics-protocol)
 
 ## Goal 
 
@@ -25,6 +31,14 @@ The tool should be able to resolve conflicts between files. This means that if a
 #### 4. History management
 
 The tool should be able to manage the history of files. This means that the tool should be able to keep track of all the changes that have been made to a file, and should be able to revert to a previous version of the file if necessary.
+
+#### 5. Share File
+
+QUIC-S can create links to files synchronized on the server, making it easy to share files with others who are not connected to the system.
+
+## Documentation
+
+For more detail logic and implementation, please check [QUIC-S Docs](https://github.com/quic-s/quics/blob/main/docs/README.md) or each repository's README.md.
 
 ## Roadmap
 
